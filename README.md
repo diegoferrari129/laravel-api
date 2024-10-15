@@ -13,4 +13,4 @@ Milestone 5 Creiamo un nuovo componente ProjectCard, che corrisponde ad una card
 
 Bonus: Gestire la paginazione dei risultati
 
-Buon lavoro!
+Buon lavoro!!
