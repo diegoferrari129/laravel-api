@@ -15,7 +15,7 @@
                     @method('PUT')
                     <div class="row gy-4">
                         <div class="col-12">
-                            <img src="{{ $project->image !== null ? asset('./storage/' . $project->image) : 'https://placehold.co/600x400' }}"
+                            <img src="{{ $project->image !== null ? asset('./storage/' . $project->image) : 'https://placehold.co/600x400?text=Hello+World' }}"
                                 alt="{{ $project->title }}" class="img-fluid">
                         </div>
                         <div class="col-4">
