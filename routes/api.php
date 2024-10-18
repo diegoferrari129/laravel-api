@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/projects', [ApiProjects::class, 'index'])->name('api_projects');
+Route::get('/projects/{slug}', [ApiProjects::class, 'show'])->name('show_projects');
